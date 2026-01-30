@@ -622,6 +622,7 @@ button:hover {
 
 .about__perfil {
     width: 220px;
+    border-radius: 20px;
 }
 
 .about__shadow {
@@ -922,6 +923,26 @@ button:hover {
   padding: 25px;
   background: #020617;
   margin-top: 80px;
+}
+
+@media (max-width:400px){
+    .contact__form{
+        width: 300px;
+    }
+    .btn{
+        width: 300px;
+    }
+    .section__title{
+        padding-left: 20px;
+    }
+}
+@media(max-width:300px){
+    .contact__form{
+        width: 200px;
+    }
+    .btn{
+        width: 200px;
+    }
 }
 
 
